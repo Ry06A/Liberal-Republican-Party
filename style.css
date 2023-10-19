@@ -50,9 +50,9 @@ header{
 	color: #333;
 	display: block;
 }
-#hamburger:checked ~ .hamburger-demo-menuwrap{
+#hamburger:checked ~ .hamburger-menuwrap{
 	left: 30%;
-#hamburger:checked ~ .hamburger-demo-cover{
+#hamburger:checked ~ .hamburger-cover{
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -70,7 +70,7 @@ header{
 	transition: .3s;
 	content: "";
 }
-.hamburger-demo-switch:before{
+.hamburger-switch:before{
 	width: 25px;
 	height: 3px;
 	background: #333;
@@ -97,7 +97,7 @@ header{
 #hamburger:checked ~ .hamburger-demo-switch .hamburger-switch-half:after{
 	transform: translate(-15%, 100%) rotate(45deg);
 }
-#hamburger:checked ~ .hamburger-demo-switch8:before{
+#hamburger:checked ~ .hamburger-switch:before{
 	transform: rotate(-45deg) translate(-32%, -335%);
 }
 .hamburger-menulist-half li{
