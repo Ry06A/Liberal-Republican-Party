@@ -3,7 +3,7 @@
   font-size: 20px; }
 
 header {
-  position: relative;
+  position: fixed;
   background-color: #def7ff; }
 
 .site-header__wrapper {
