@@ -25,7 +25,7 @@ header{
 	width: 4em;
 	height: 4em;
 }
-#hamburger:checked ~ .hamburger-demo-switch{
+#hamburger:checked ~ .hamburger-switch{
 	position: fixed;
 }
 .hamburger-menuwrap{
@@ -91,10 +91,10 @@ header{
 .hamburger-switch-half:after{
 	transform: translate(0, 200%)
 } 
-#hamburger:checked ~ .hamburger-demo-switch .hamburger-switch-half:before{
+#hamburger:checked ~ .hamburger-switch .hamburger-switch-half:before{
 	transform: translate(-85%, -200%) rotate(45deg);
 }
-#hamburger:checked ~ .hamburger-demo-switch .hamburger-switch-half:after{
+#hamburger:checked ~ .hamburger-switch .hamburger-switch-half:after{
 	transform: translate(-15%, 100%) rotate(45deg);
 }
 #hamburger:checked ~ .hamburger-switch:before{
@@ -126,7 +126,7 @@ header{
 	right: 0;
 }
 @media (min-width: 992px){
-	.hamburger-demo-menubox{
+	.hamburger-menubox{
 		display: none;
 	}
 }
