@@ -9,7 +9,8 @@ body {
    letter-spacing : 0.2em;
 }
 header {
-   padding: 30px 4% 10px;
+   margin: 12px;
+   padding: 12px;
    position: fixed;
    top: 0;
    width: 100%;
@@ -73,6 +74,8 @@ h2 {
       height: 100vh;
       display: block;
       width: 100%;
+      margin: 12px;
+      padding: 12px;
       backdrop-filter: blur(16px) saturate(180%);
       -webkit-backdrop-filter: blur(16px) saturate(180%);
       background-color: rgba(255, 255, 255, 0.75);
