@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/reset.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <title>自由共和党</title>
-  </head>
-  <body>
-    <header>
+<head>
+   <meta charset="utf-8">
+   <meta name="robots" content="noindex,nofollow">
+   <title>HTMLベーステンプレート</title>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+
+   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <script>
+   $(function() {
+      const hum = $('#hamburger, .close')
+      const nav = $('.sp-nav')
+      hum.on('click', function(){
+         nav.toggleClass('toggle');
+      });
+   });
+   </script>
+</head>
+<body>
+   <header>
       <h1>
          <a href="/">RICO NOTES</a>
       </h1>
       <nav class="pc-nav">
          <ul>
             <li><a href="#">ABOUT</a></li>
-           <li><a href="#">SERVICE</a></li>
-           <li><a href="#">COMPANY</a></li>
-           <li><a href="#">CONTACT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
          </ul>
       </nav>
       <nav class="sp-nav">
-        <ul>
-           <li><a href="#">ABOUT</a></li>
-           <li><a href="#">SERVICE</a></li>
-           <li><a href="#">COMPANY</a></li>
-           <li><a href="#">CONTACT</a></li>
-           <li class="close"><span>閉じる</span></li>
-        </ul>
+         <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li class="close"><span>閉じる</span></li>
+         </ul>
       </nav>
       <div id="hamburger">
          <span></span>
       </div>
-   </header>   
-  </body>
-</html>
+   </header>
+   <div class="main-visual">
+      <h2>WEB DESIGN <span>IS</span> YOUR FUTURE</h2>
+   </div>
+</body>
+</html>dx
