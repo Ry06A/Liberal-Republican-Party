@@ -104,3 +104,14 @@ body {
  background: #fff;
  transform: rotate( -45deg );
 }
+.toggle {
+ transform: translateY( 0 );
+ opacity: 1;
+}
+.main-visual {
+ padding: 0 4%;
+}
+h2 {
+ line-height: 1.6;
+ text-align: center;
+}

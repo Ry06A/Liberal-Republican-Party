@@ -12,3 +12,11 @@ navToggle.addEventListener("click", function () {
     this.setAttribute("aria-expanded", "true");
   }
 });
+
+$(function() {
+    const hum = $('#hamburger, .close')
+    const nav = $('.sp-nav')
+    hum.on('click', function(){
+       nav.toggleClass('toggle');
+    });
+ });
