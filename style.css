@@ -1,5 +1,4 @@
-/* header（デモの参考値） */
-.demobox-header{
+header{
 	background: #ddd;
 	height: 64px;
 	padding: 1em;
@@ -8,20 +7,15 @@
 	font-weight: 700;
 	font-size: 18px;
 }
- 
-/* 全体調整CSS */
 .hamburger-demo-menubox *{
 	font-size: 16px;
 }
 .hamburger-demo-menubox li{
 	font-size: 14px;
 }
-/* hamburgerここから */
-	/* input非表示 */
 .input-hidden{
 	display: none;
 }
-	/* label */
 .hamburger-demo-switch{
 	cursor: pointer;
 	position: absolute;
@@ -31,40 +25,33 @@
 	width: 4em;
 	height: 4em;
 }
-/* メニュー展開時のlabelをfixed化 */
 #hamburger-demo8:checked ~ .hamburger-demo-switch{
 	position: fixed;
 }
-/* メニューエリア */
 .hamburger-demo-menuwrap{
 	position: fixed;
 	height: 100%;
-	background: #fafafa; /* メニューエリアの背景色 */
+	background: #fafafa;
 	padding: 5em 3% 2em;
 	z-index: 9998;
 	transition: .3s;
-	overflow-y: scroll; /* メニュー項目が多い場合に縦スクロール */
+	overflow-y: scroll;
 	top: 0;
 	left: 100%;
 	width: 70%;
 }
-/* メニューリスト */
 .hamburger-demo-menulist{
-	margin-right: 3%;
-	padding-left: 5% !important; /* !importantは不要な場合あり */
+	margin: 12px;
+	padding: 12px;
 	list-style: none;
 }
 .hamburger-demo-menulist li a{
 	text-decoration: none;
-	color: #333; /* メニューリスト項目の文字色 */
+	color: #333;
 	display: block;
 }
-/* メニューエリアchecked */
-	/* 右から */
 #hamburger-demo8:checked ~ .hamburger-demo-menuwrap{
 	left: 30%;
-}
-	/* コンテンツカバー */
 #hamburger-demo8:checked ~ .hamburger-demo-cover{
 	position: fixed;
 	width: 100%;
@@ -75,8 +62,6 @@
 	background: rgba(3,3,3,.5);
 	display: block;
 }
-/* ハーフセパレート･デザイン */
-	/* ハンバーガーアイコン */
 .hamburger-switch-half, .hamburger-demo-switch8:before{
 	position: absolute;
 	top: 50%;
@@ -88,14 +73,14 @@
 .hamburger-demo-switch8:before{
 	width: 25px;
 	height: 3px;
-	background: #333; /* ハンバーガー中央線の色 */
+	background: #333;
 }
 .hamburger-switch-half:before, .hamburger-switch-half:after{
 	content: "";
 	position: absolute;
 	width: 12.5px;
 	height: 3px;
-	background: #333; /* ハンバーガー上下線の色 */
+	background: #333;
 	top: 50%;
 	left: 50%;
 	transition: .3s;
@@ -105,8 +90,7 @@
 }
 .hamburger-switch-half:after{
 	transform: translate(0, 200%)
-}
-	/* アイコンアニメーション */
+} 
 #hamburger-demo8:checked ~ .hamburger-demo-switch .hamburger-switch-half:before{
 	transform: translate(-85%, -200%) rotate(45deg);
 }
@@ -116,7 +100,6 @@
 #hamburger-demo8:checked ~ .hamburger-demo-switch8:before{
 	transform: rotate(-45deg) translate(-32%, -335%);
 }
-	/* メニューリストのセパレートボーダー */
 .hamburger-menulist-half li{
 	position: relative;
 	margin-bottom: .5em;
@@ -133,16 +116,15 @@
 	z-index: -1;
 }
 .hamburger-menulist-half a:before{
-	border-color: #333 transparent transparent #333; /* カギ括弧の色（#333のみ変更） */
+	border-color: #333 transparent transparent #333;
 	top: 0;
 	left: 0;
 }
 .hamburger-menulist-half a:after{
-	border-color: transparent #333 #333 transparent; /* カギ括弧の色（#333のみ変更） */
+	border-color: transparent #333 #333 transparent;
 	bottom: 0;
 	right: 0;
 }
-/* PCではハンバーガーメニューを表示しない */
 @media (min-width: 992px){
 	.hamburger-demo-menubox{
 		display: none;
