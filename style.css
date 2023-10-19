@@ -7,16 +7,16 @@ header{
 	font-weight: 700;
 	font-size: 18px;
 }
-.hamburger-demo-menubox *{
+.hamburger.-menubox *{
 	font-size: 16px;
 }
-.hamburger-demo-menubox li{
+.hamburger-menubox li{
 	font-size: 14px;
 }
 .input-hidden{
 	display: none;
 }
-.hamburger-demo-switch{
+.hamburger-switch{
 	cursor: pointer;
 	position: absolute;
 	right: 3%;
@@ -25,10 +25,10 @@ header{
 	width: 4em;
 	height: 4em;
 }
-#hamburger-demo8:checked ~ .hamburger-demo-switch{
+#hamburger:checked ~ .hamburger-demo-switch{
 	position: fixed;
 }
-.hamburger-demo-menuwrap{
+.hamburger-menuwrap{
 	position: fixed;
 	height: 100%;
 	background: #fafafa;
@@ -40,19 +40,19 @@ header{
 	left: 100%;
 	width: 70%;
 }
-.hamburger-demo-menulist{
+.hamburger-menulist{
 	margin: 12px;
 	padding: 12px;
 	list-style: none;
 }
-.hamburger-demo-menulist li a{
+.hamburger-menulist li a{
 	text-decoration: none;
 	color: #333;
 	display: block;
 }
-#hamburger-demo8:checked ~ .hamburger-demo-menuwrap{
+#hamburger:checked ~ .hamburger-demo-menuwrap{
 	left: 30%;
-#hamburger-demo8:checked ~ .hamburger-demo-cover{
+#hamburger:checked ~ .hamburger-demo-cover{
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -62,7 +62,7 @@ header{
 	background: rgba(3,3,3,.5);
 	display: block;
 }
-.hamburger-switch-half, .hamburger-demo-switch8:before{
+.hamburger-switch-half, .hamburger-switch:before{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -70,7 +70,7 @@ header{
 	transition: .3s;
 	content: "";
 }
-.hamburger-demo-switch8:before{
+.hamburger-demo-switch:before{
 	width: 25px;
 	height: 3px;
 	background: #333;
@@ -91,13 +91,13 @@ header{
 .hamburger-switch-half:after{
 	transform: translate(0, 200%)
 } 
-#hamburger-demo8:checked ~ .hamburger-demo-switch .hamburger-switch-half:before{
+#hamburger:checked ~ .hamburger-demo-switch .hamburger-switch-half:before{
 	transform: translate(-85%, -200%) rotate(45deg);
 }
-#hamburger-demo8:checked ~ .hamburger-demo-switch .hamburger-switch-half:after{
+#hamburger:checked ~ .hamburger-demo-switch .hamburger-switch-half:after{
 	transform: translate(-15%, 100%) rotate(45deg);
 }
-#hamburger-demo8:checked ~ .hamburger-demo-switch8:before{
+#hamburger:checked ~ .hamburger-demo-switch8:before{
 	transform: rotate(-45deg) translate(-32%, -335%);
 }
 .hamburger-menulist-half li{
