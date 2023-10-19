@@ -2,3 +2,15 @@
 body {
  font-family: 'Noto Sans JP', sans-serif;
 }
+@media screen and (max-width: 640px) {
+    .pc-nav {
+       display: none;
+    }
+ }
+#hamburger {
+ position: relative;
+ display: block;
+ width: 30px;
+ height: 25px;
+ margin: 0 0 0 auto;
+}
