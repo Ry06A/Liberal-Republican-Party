@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
 body {
   font-family: 'Noto Sans JP', sans-serif; 
 }
-.brand {
+.logo {
   font-weight: bold;
   font-size: 20px; 
 }
@@ -13,12 +14,12 @@ header {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.site-header__wrapper {
+.site-header_wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem; 
 }
   @media (min-width: 600px) {
-    .site-header__wrapper {
+    .site-header_wrapper {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -27,13 +28,13 @@ header {
     } 
   }
 @media (min-width: 600px) {
-  .nav__wrapper {
+  .nav_wrapper {
     display: flex; 
   } 
 }
 
 @media (max-width: 599px) {
-  .nav__wrapper {
+  .nav_wrapper {
     position: absolute;
     top: 100%;
     right: 0;
@@ -45,23 +46,23 @@ header {
     transform: translateY(-100%);
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
    }
-    .nav__wrapper.active {
+    .nav_wrapper.active {
       visibility: visible;
       opacity: 1;
       transform: translateY(0); 
     } 
 }
 
-.nav__item a {
+.nav_item a {
   display: block;
   padding: 1.5rem 1rem;
 }
 
-.nav__toggle {
+.nav_toggle {
   display: none;
 }
   @media (max-width: 599px) {
-    .nav__toggle {
+    .nav_toggle {
       display: block;
       position: absolute;
       right: 1rem;
