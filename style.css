@@ -5,11 +5,9 @@ body {
 .logo {
   width: 150px;
 }
-
 header {
   position: relative;
 }
-
 .site-header_wrapper {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -33,7 +31,6 @@ header {
     display: flex; 
   } 
 }
-
 @media (max-width: 599px) {
   .nav_wrapper {
     position: absolute;
@@ -53,12 +50,10 @@ header {
      transform: translateY(0); 
    } 
 }
-
 .nav_item a {
   display: block;
   padding: 1.5rem 1rem;
 }
-
 .nav_toggle {
   display: none;
 }
