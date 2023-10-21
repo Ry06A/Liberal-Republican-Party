@@ -57,3 +57,26 @@ header {
   display: block;
   padding: 1.5rem 1rem;
 }
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+@media (max-width: 768px) {
+  .hamburger-menu {
+    display: flex;
+  }
+  .nav {
+    display: none;
+  }
+  .nav.active {
+    display: block;
+  }
+}
