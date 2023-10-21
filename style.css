@@ -57,14 +57,3 @@ header {
   display: block;
   padding: 1.5rem 1rem;
 }
-.nav_toggle {
-  display: none;
-}
-@media (max-width: 959px) {
-  .nav_toggle {
-    display: block;
-    position: absolute;
-    right: 1rem;
-    top: 1rem; 
-  } 
-}
