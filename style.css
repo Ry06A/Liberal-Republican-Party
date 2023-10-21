@@ -52,6 +52,7 @@ header {
    } 
 }
 .nav_item a {
+  color: black;
   display: block;
   padding: 1.5rem 1rem;
 }
