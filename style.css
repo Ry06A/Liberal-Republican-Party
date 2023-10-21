@@ -18,7 +18,7 @@ header {
   margin: 12px;
   padding: 12px; 
 }
-@media (min-width: 600px) {
+@media (min-width: 960px) {
   .site-header_wrapper {
     display: flex;
     justify-content: space-between;
@@ -27,12 +27,12 @@ header {
     padding: 6px;
   } 
 }
-@media (min-width: 600px) {
+@media (min-width: 960px) {
   .nav_wrapper {
     display: flex; 
   } 
 }
-@media (max-width: 599px) {
+@media (max-width: 959px) {
   .nav_wrapper {
     position: absolute;
     top: 100%;
@@ -60,7 +60,7 @@ header {
 .nav_toggle {
   display: none;
 }
-@media (max-width: 599px) {
+@media (max-width: 959px) {
   .nav_toggle {
     display: block;
     position: absolute;
