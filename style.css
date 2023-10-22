@@ -36,6 +36,8 @@ a {
   background-color: #f4f4f4;
 }
 .header .logo {
+  width: 20%;
+  height: 20%;
   float: left;
 }
 .header .menu {
