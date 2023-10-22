@@ -34,9 +34,8 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  height: 10vh;
   padding: 10px 20px;
-  text-decoration: none;
 }
 .header .menu {
   clear: both;
