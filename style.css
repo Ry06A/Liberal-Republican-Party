@@ -37,7 +37,7 @@ a {
 }
 .header .logo {
   float: left;
-  height: 100px;
+  height: 50px;
 }
 .header .menu {
   clear: both;
