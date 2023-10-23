@@ -35,6 +35,7 @@ a {
   display: block;
   float: left;
   font-size: 2em;
+  font-weight:  bold;
   padding: 10px 20px;
   text-decoration: none;
 }
