@@ -37,9 +37,11 @@ a {
   background-color: #f4f4f4;
 }
 .header .logo {
-  width: auto;
-  height: 10vh;
+  display: block;
   float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 .header .menu {
   clear: both;
