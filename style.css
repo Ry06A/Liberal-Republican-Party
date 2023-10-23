@@ -7,7 +7,7 @@ a {
   color: #000;
 }
 .header {
-  width: auto;
+  width: 400px;
   height: 200px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
