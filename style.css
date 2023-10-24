@@ -38,7 +38,7 @@ a {
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .4s ease-out;
+  transition: max-height .3s ease-out;
 }
 .header .menu-icon {
   cursor: pointer;
@@ -53,7 +53,7 @@ a {
   display: block;
   height: 2px;
   position: relative;
-  transition: background .4s ease-out;
+  transition: background .3s ease-out;
   width: 18px;
 }
 .header .menu-icon .navicon:before,
@@ -63,7 +63,7 @@ a {
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all .3s ease-out;
   width: 100%;
 }
 .header .menu-icon .navicon:before {
