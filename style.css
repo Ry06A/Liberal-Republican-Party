@@ -93,3 +93,45 @@ li {
 .hamburger {
  display: none;
 }
+#head {
+  background-image: url(../img/phone-pc.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 580px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+#head .headline {
+  color: #f5f5f7;
+  font-size: 56px;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#head .subhead {
+  color: #f5f5f7;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 125px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  #head {
+    background-image: url(../img/phone-sp.jpg);
+  }
+  #head .headline {
+    font-size: 32px;
+  }
+  #head .subhead {
+    font-size: 19px;
+    top: 88px;
+  }
+}
