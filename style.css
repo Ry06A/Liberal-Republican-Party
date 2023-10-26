@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;  
   background-color: #f2f2f2;
+  position:relative;
 }
 a {
   color: #1d1d1f;
@@ -109,7 +110,8 @@ a {
 }
 .main {
   background-color: black;
-  position: relative;
+  position:absolute;
+  top:OO;
   height: 500px;
 }
 .main-text {
