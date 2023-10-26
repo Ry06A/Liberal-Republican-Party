@@ -62,7 +62,6 @@ li {
 
 #header .header-inner .logo {
   flex-shrink: 0;
-  width: 16px;
   line-height: 1px;
   margin-right: 9%;
 }
