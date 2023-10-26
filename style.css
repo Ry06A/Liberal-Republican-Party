@@ -10,7 +10,7 @@ body {
   color : 1d1d1f;
 }
 a {
-  color: #06c;
+  color: #1d1d1f;
   text-decoration: none;
 }
 img {
@@ -80,7 +80,7 @@ li {
   height: 44px;
   line-height: 44px;
   display: inline-block;
-  color: #f5f5f7;
+  color: #1d1d1f;
   font-size: 14px;
   padding: 0 10px;
   opacity: 0.8;
