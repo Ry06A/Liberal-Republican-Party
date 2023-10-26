@@ -135,3 +135,23 @@ li {
     top: 88px;
   }
 }
+#head {
+  margin-bottom: 80px;
+}
+#head img {
+  width: 100%;
+  max-width: 1920px;
+  height: 500px;
+  object-fit: cover;
+}
+#head .headline {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  #head .headline {
+    font-size: 32px;
+  }
+}
