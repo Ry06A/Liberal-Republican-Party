@@ -1,7 +1,47 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+html {
+ font-size: 100%;
+} 
 body {
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;  
   background-color: #f2f2f2;
   color : 1d1d1f;
+}
+a {
+  color: #06c;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  max-width: 980px;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+.link-more {
+  font-size: 14px;
+  position: relative;
+}
+.link-more::after {
+  position: absolute;
+  top: 54%;
+  right: -12px;
+  width: 7px;
+  height: 7px;
+  transform: translateY(-50%) rotate(45deg);
+  border-right: 2px solid currentColor;
+  border-top: 2px solid currentColor;
+  content: "";
+}
+.link-more:hover {
+  text-decoration: underline;
+}
+#main {
+  padding-top: 44px;
 }
