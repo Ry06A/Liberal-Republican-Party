@@ -121,7 +121,9 @@ li {
   }
   #navi {
     position: fixed;
-    background: #000;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
     top: 0;
     left: 0;
     transform: translateY(-100%);
@@ -139,7 +141,7 @@ li {
   }
   #navi ul li {
     width: 100%;
-    border-bottom: solid 1px #f5f5f7;
+    border-bottom: solid 1px #1d1d1f;
   }
   #navi ul li:last-child {
     border-bottom: none;
@@ -160,7 +162,7 @@ li {
   .hamburger span {
     width: 16px;
     height: 1px;
-    background: #fff;
+    background: #1d1d1f;
     position: absolute;
     left: 14px;
     transition: 0.3s ease-in-out;
