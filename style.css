@@ -88,7 +88,7 @@ li {
  display: none;
 }
 #head {
-  background-image: url(../img/phone-pc.jpg);
+  background-color: #1d1d1f;
   background-size: cover;
   background-position: center;
   height: 580px;
@@ -141,9 +141,4 @@ li {
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
-}
-@media screen and (max-width: 767px) {
-  #head .headline {
-    font-size: 32px;
-  }
 }
