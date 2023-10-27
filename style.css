@@ -100,7 +100,7 @@ li {
   font-size: 56px;
   font-weight: bold;
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 0;
   right: 0;
   text-align: center;
@@ -110,7 +110,7 @@ li {
   font-size: 28px;
   font-weight: bold;
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 0;
   right: 0;
   text-align: center;
@@ -186,7 +186,7 @@ li {
   }
   #head .subhead {
     font-size: 19px;
-    top: 100px;
+    top: 120px;
   }
   #footer .footer-menu {
     flex-wrap: wrap;
