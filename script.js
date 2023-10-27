@@ -9,3 +9,6 @@ $(function () {
     }
   });
 });
+
+thisyear = new Date();
+document.write(thisyear.getFullYear() );
