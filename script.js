@@ -1,10 +1,10 @@
 $(function () {
   $('.hamburger').click(function () {
     $(this).toggleClass('active');
-
     if ($(this).hasClass('active')) {
       $('#navi').addClass('active');
-    } else {
+    } 
+    else {
       $('#navi').removeClass('active');
     }
   });
