@@ -144,10 +144,10 @@ li {
     top: 22px;
     transform: rotate(-45deg);
   }
-    .hamburger.active span:nth-child(2) {
-      top: 22px;
-      transform: rotate(45deg);
-    }
+  .hamburger.active span:nth-child(2) {
+    top: 22px;
+    transform: rotate(45deg);
+  }
   #head {
     background-color: #1d1d1f;
   }
