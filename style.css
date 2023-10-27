@@ -148,9 +148,6 @@ li {
     top: 22px;
     transform: rotate(45deg);
   }
-  #head {
-    background-color: #1d1d1f;
-  }
   #head .headline {
     font-size: 32px;
   }
