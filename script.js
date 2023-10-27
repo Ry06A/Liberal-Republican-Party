@@ -1,5 +1,7 @@
-$(function () {
-  $('.hamburger').click(function () {
+$(function() {
+
+  $('.hamburger').click(function() {
+
     $(this).toggleClass('active');
 
     if ($(this).hasClass('active')) {
@@ -7,5 +9,6 @@ $(function () {
     } else {
       $('#navi').removeClass('active');
     }
+
   });
 });
