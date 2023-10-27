@@ -117,7 +117,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   #head {
-    background-image: url(../img/phone-sp.jpg);
+    background-color: 1d1d1f;
   }
   #head .headline {
     font-size: 32px;
