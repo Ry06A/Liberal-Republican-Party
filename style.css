@@ -50,6 +50,7 @@ li {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
   position: fixed;
   z-index: 10;
 }
