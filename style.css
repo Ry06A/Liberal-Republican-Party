@@ -96,7 +96,10 @@ li {
   position: relative;
 }
 #head .headline {
-  color: #f5f5f7;
+  display: inline-block;
+  background: -webkit-linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 56px;
   font-weight: bold;
   position: absolute;
