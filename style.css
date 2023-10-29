@@ -94,6 +94,7 @@ li {
   background-position: center;
   height: 580px;
   margin-bottom: 20px;
+  position: relative;
 }
 #s1 .headline {
   display: inline-block;
@@ -102,13 +103,20 @@ li {
   -webkit-text-fill-color: transparent;
   font-size: 56px;
   font-weight: 800;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
   text-align: center;
-  margin-bottom: 20px;
 }
 #s1 .subhead {
   color: #f5f5f7;
   font-size: 28px;
   font-weight: bold;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 #s1 img {
