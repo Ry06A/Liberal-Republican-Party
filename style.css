@@ -88,36 +88,34 @@ li {
 .hamburger {
  display: none;
 }
-#head {
+#s1 {
   background-color: #1d1d1f;
   background-size: cover;
   background-position: center;
   height: 580px;
   margin-bottom: 20px;
-  position: relative;
 }
-#head .headline {
+#s1 .headline {
   display: inline-block;
   background: -webkit-linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 56px;
   font-weight: 800;
-  position: absolute;
-  top: 40px;
-  left: 0;
-  right: 0;
   text-align: center;
+  margin-bottom: 20px;
 }
-#head .subhead {
+#s1 .subhead {
   color: #f5f5f7;
   font-size: 28px;
   font-weight: bold;
-  position: absolute;
-  top: 120px;
-  left: 0;
-  right: 0;
   text-align: center;
+}
+#s1 img {
+  width: 100%;
+  max-width: 1920px;
+  height: 500px;
+  object-fit: cover;
 }
 @media screen and (max-width: 767px) {
   #header .header-inner .logo {
@@ -185,10 +183,10 @@ li {
     top: 22px;
     transform: rotate(45deg);
   }
-  #head .headline {
+  #s1 .headline {
     font-size: 32px;
   }
-  #head .subhead {
+  #s1 .subhead {
     font-size: 19px;
   }
   #footer .footer-menu {
@@ -197,18 +195,6 @@ li {
   #footer .footer-menu .menu {
     width: 50%;
   }
-}
-#head img {
-  width: 100%;
-  max-width: 1920px;
-  height: 500px;
-  object-fit: cover;
-}
-#head .headline {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 40px;
 }
 #footer {
   width: 100%;
