@@ -98,11 +98,12 @@ li {
 }
 #s1 .headline {
   display: inline-block;
-  background: -webkit-linear-gradient(45deg, #54d0ff, #9f92ff 20%, #ff7689 90%);
+  background: -webkit-linear-gradient(0deg,#be22ff 20%,#ff279c 50%,#ff981f 80%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 56px;
-  font-weight: 800;
+  text-align: center;  font-size: 56px;
+  font-weight: bold;
   position: absolute;
   top: 40px;
   left: 0;
