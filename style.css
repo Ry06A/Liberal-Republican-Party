@@ -84,7 +84,7 @@ li {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 10vw;
+  font-size: 8vw;
   text-align: center;  
   font-weight: bold;
   position: absolute;
@@ -95,7 +95,7 @@ li {
 }
 #s1 .subhead {
   color: #f5f5f7;
-  font-size: 5vw;
+  font-size: 4vw;
   position: absolute;
   top: 120px;
   left: 0;
