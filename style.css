@@ -105,7 +105,7 @@ li {
 }
 #s1 .subhead span {
   display: inline-block;
-  background-image: linear-gradient(120deg,var(--silver-text),var(--green-text) 40%,var(--yellow-text) 65%,var(--orange-text) 73%,var(--pink-text) 82%,var(--purple-text) 93%,var(--purple-text));
+  background-image: linear-gradient(90deg,#ffc170,#ec787f,#8980ed);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
