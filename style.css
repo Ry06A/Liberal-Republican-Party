@@ -182,12 +182,6 @@ li {
     top: 22px;
     transform: rotate(45deg);
   }
-  #s1 .headline {
-    font-size: 32px;
-  }
-  #s1 .subhead {
-    font-size: 19px;
-  }
   #footer .footer-menu {
     flex-wrap: wrap;
   }
