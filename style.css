@@ -102,7 +102,7 @@ li {
   right: 0;
   text-align: center;
 }
-#s1 .subhead span {
+#s1 .subhead .republic {
   display: inline-block;
   background-image: linear-gradient(90deg,#ffc170,#ec787f,#8980ed);
   -webkit-background-clip: text;
