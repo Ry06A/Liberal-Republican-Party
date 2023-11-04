@@ -88,7 +88,6 @@ li {
   text-align: center;  
   font-weight: bold;
   position: absolute;
-  top: 1vw;
   left: 0;
   right: 0;
   text-align: center;
@@ -97,7 +96,7 @@ li {
   color: #f5f5f7;
   font-size: 4vw;
   position: absolute;
-  top: 3vw;
+  top: 10vw;
   left: 0;
   right: 0;
   text-align: center;
