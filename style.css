@@ -29,7 +29,7 @@ li {
 }
 #header {
   width: 100%;
-  backdrop-filter: blur(16px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
   box-shadow: 0px 10px 10px -5px rgba(0,0,0,0.5);
@@ -94,7 +94,7 @@ li {
 }
 #s1 .subhead {
   color: #f5f5f7;
-  font-size: 4vw;
+  font-size: 5vw;
   position: absolute;
   top: 15vw;
   left: 0;
