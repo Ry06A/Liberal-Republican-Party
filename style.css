@@ -78,7 +78,7 @@ li {
   margin-bottom: 20px;
   position: relative;
 }
-#1 .headline {
+#s1 .headline {
   display: inline-block;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   -webkit-background-clip: text;
@@ -92,7 +92,7 @@ li {
   right: 0;
   text-align: center;
 }
-#1 .subhead {
+#s1 .subhead {
   color: #f5f5f7;
   font-size: 4vw;
   position: absolute;
@@ -101,7 +101,7 @@ li {
   right: 0;
   text-align: center;
 }
-#1 .subhead .strong {
+#s1 .subhead .strong {
   display: inline-block;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   -webkit-background-clip: text;
@@ -109,13 +109,13 @@ li {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
-#1 img {
+#s1 img {
   width: 100%;
   max-width: 1920px;
   height: 500px;
   object-fit: cover;
 }
-#2 {
+#s2 {
   background-color: #f2f2f2;
   background-size: cover;
   background-position: center;
@@ -123,7 +123,7 @@ li {
   margin-bottom: 20px;
   position: relative;
 }
-#2 .headline {
+#s2 .headline {
   display: inline-block;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   -webkit-background-clip: text;
@@ -137,7 +137,7 @@ li {
   right: 0;
   text-align: center;
 }
-#2 .subhead {
+#s2 .subhead {
   color: #1d1d1f;
   font-size: 4vw;
   position: absolute;
@@ -146,7 +146,7 @@ li {
   right: 0;
   text-align: center;
 }
-#2 .subhead .strong {
+#s2 .subhead .strong {
   display: inline-block;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   -webkit-background-clip: text;
@@ -154,7 +154,7 @@ li {
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
-#2 img {
+#s2 img {
   width: 100%;
   max-width: 1920px;
   height: 500px;
