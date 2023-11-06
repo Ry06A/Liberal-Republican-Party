@@ -166,19 +166,19 @@ li {
   grid-template-columns: 1fr 1fr;
   margin-bottom: 12px;
 }
-#collection .1 {
+#collection .c1 {
   background-image: url(../img/music.jpg);
 }
-#collection .2 {
+#collection .c2 {
   background-image: url(../img/watch.jpg);
 }
-#collection .3 {
+#collection .c3 {
   background-image: url(../img/tv.jpg);
 }
-#collection .4 {
+#collection .c4 {
   background-image: url(../img/store.jpg);
 }
-#collection .5 {
+#collection .c5 {
   background-size: cover;
   background-position: center;
   height: 520px;
