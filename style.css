@@ -159,7 +159,51 @@ li {
   max-width: 1920px;
   height: 500px;
   object-fit: cover;
- }
+}
+#collection {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 12px;
+}
+#collection .1 {
+  background-image: url(../img/music.jpg);
+}
+#collection .2 {
+  background-image: url(../img/watch.jpg);
+}
+#collection .3 {
+  background-image: url(../img/tv.jpg);
+}
+#collection .4 {
+  background-image: url(../img/store.jpg);
+}
+#collection .5 {
+  background-size: cover;
+  background-position: center;
+  height: 520px;
+  position: relative;
+}
+#collection .item .copy {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#collection .item .bg-dark {
+  color: #fff;
+}
+#collection .item .headline {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+#collection .item .subhead {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 7px;
+} 
 @media screen and (max-width: 767px) {
   #header .header-inner .logo {
     z-index: 20;
@@ -225,6 +269,9 @@ li {
   .hamburger.active span:nth-child(2) {
     top: 22px;
     transform: rotate(45deg);
+  }
+  #collection {
+    grid-template-columns: 1fr;
   }
   #footer .footer-menu {
     flex-wrap: wrap;
