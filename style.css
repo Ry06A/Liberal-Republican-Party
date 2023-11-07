@@ -210,7 +210,6 @@ li {
   gap: 12px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 12px;
-  position: relative;
 }
 #collection .policy {
   display: inline-block;
@@ -221,10 +220,6 @@ li {
   font-size: 56px;
   font-weight: 900;
   text-align: center;  
-  position: absolute;
-  top: 40px;
-  left: 0;
-  right: 0;
 } 
 #collection .c1 {
   background-image: url(../img/music.jpg);
