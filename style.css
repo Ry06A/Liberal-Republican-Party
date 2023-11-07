@@ -42,8 +42,9 @@ li {
   align-items: center;
 }
 #header .header-inner .logo {
-  font-size: 2vw;
+  font-size: 28px;
   font-weight: 900;
+  line-height: 1px;
   flex-shrink: 0;
   margin-right: 9%;
 }
