@@ -75,7 +75,6 @@ li {
 #s1 {
   background-color: #1d1d1f;
   background-size: cover;
-  background-position: center;
   height: 580px;
   margin-bottom: 20px;
   position: relative;
@@ -120,7 +119,6 @@ li {
 #s2 {
   background-color: #f2f2f2;
   background-size: cover;
-  background-position: center;
   height: 580px;
   margin-bottom: 20px;
   position: relative;
@@ -166,7 +164,6 @@ li {
 #s3 {
   background-color: #1d1d1f;
   background-size: cover;
-  background-position: center;
   height: 580px;
   margin-bottom: 20px;
   position: relative;
@@ -213,6 +210,7 @@ li {
   gap: 12px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 12px;
+  position: relative;
 }
 #collection .policy {
   display: inline-block;
@@ -223,6 +221,10 @@ li {
   font-size: 56px;
   font-weight: 900;
   text-align: center;  
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
 } 
 #collection .c1 {
   background-image: url(../img/music.jpg);
@@ -375,7 +377,7 @@ li {
     top: 88px;
   }
   #s2 .headline {
-    font-size:32px;
+    font-size: 32px;
   }
   #s2 .subhead {
     font-size: 19px;
@@ -383,14 +385,15 @@ li {
   }
    }
   #s3 .headline {
-    font-size:32px;
+    font-size: 32px;
   }
   #s3 .subhead {
     font-size: 19px;
-    top:88px;
+    top: 88px;
  }
  #collection .policy {
    font-size: 32px;
+   top: 88px;
  } 
   #collection {
     grid-template-columns: 1fr;
