@@ -42,13 +42,13 @@ li {
   align-items: center;
 }
 #header .header-inner .logo {
-  font-size: 4vw
+  font-size: 2vw
   font-weight: 900;
   flex-shrink: 0;
   margin-right: 9%;
 }
 #header .header-inner .logo .en {
-  font-size: 2vw;
+  font-size: 1vw;
 }
 #navi {
   width: 100%;
