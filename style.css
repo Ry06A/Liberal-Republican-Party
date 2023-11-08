@@ -246,8 +246,20 @@ li {
   right: 0;
   text-align: center;
 }
+#collection .item .bg {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
 #collection .item .bg-dark {
-  color: #fff;
+  color: #fff;    
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 #collection .item .headline {
   font-size: 48px;
@@ -378,7 +390,6 @@ li {
     font-size: 19px;
     top:88px;
   }
-   }
   #s3 .headline {
     font-size: 32px;
   }
