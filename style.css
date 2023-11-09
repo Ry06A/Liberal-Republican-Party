@@ -205,13 +205,13 @@ li {
   height: 500px;
   object-fit: cover;
 }
-#collection {
+#policy {
   display: grid;
   gap: 12px;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 12px;
 }
-#collection .policy {
+#policy .title {
   display: inline-block;
   background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
   -webkit-background-clip: text;
@@ -221,32 +221,32 @@ li {
   font-weight: 900;
   text-align: center;  
 } 
-#collection .c1 {
+#policy .c1 {
   background-image: url(../img/music.jpg);
 }
-#collection .c2 {
+#policy .c2 {
   background-image: url(../img/watch.jpg);
 }
-#collection .c3 {
+#policy .c3 {
   background-image: url(../img/tv.jpg);
 }
-#collection .c4 {
+#policy .c4 {
   background-image: url(../img/store.jpg);
 }
-#collection .item {
+#policy .item {
   background-size: cover;
   background-position: center;
   height: 520px;
   position: relative;
 }
-#collection .item .copy {
+#policy .item .copy {
   position: absolute;
   bottom: 50px;
   left: 0;
   right: 0;
   text-align: center;
 }
-#collection .item .bg {
+#policy .item .bg {
   margin: 10px;
   padding: 10px;
   backdrop-filter: blur(16px) saturate(180%);
@@ -255,7 +255,7 @@ li {
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
-#collection .item .bg-dark {
+#policy .item .bg-dark {
   margin: 10px;
   padding: 10px;
   color: #fff;    
@@ -265,12 +265,12 @@ li {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
-#collection .item .headline {
+#policy .item .headline {
   font-size: 48px;
   font-weight: bold;
   line-height: 1.2;
 }
-#collection .item .subhead {
+#policy .item .subhead {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 7px;
@@ -401,11 +401,11 @@ li {
     font-size: 19px;
     top: 88px;
  }
- #collection .policy {
+ #policy .policy {
    font-size: 32px;
    top: 88px;
  } 
-  #collection {
+  #policy {
     grid-template-columns: 1fr;
   }
   #footer .footer-menu {
