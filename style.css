@@ -223,6 +223,7 @@ li {
 } 
 #policy .c1 {
   background-image: url(../img/music.jpg);
+  height: 300px;
 }
 #policy .c2 {
   background-image: url(../img/watch.jpg);
