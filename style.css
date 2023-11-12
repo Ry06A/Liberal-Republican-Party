@@ -8,7 +8,6 @@ body {
 }
 a {
   color: #000;
-  font-weight: 900;
 }
 .header {
   backdrop-filter: blur(16px) saturate(180%);
@@ -45,6 +44,7 @@ a {
 }
 .header .logo .lrp{
   color: white;
+  font-weight: 900;
   display: block;
   float: left;
   width: 50px;
