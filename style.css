@@ -5,6 +5,7 @@ body {
 }
 a {
   color: #000;
+  font-weight: 900;
 }
 .header {
   background-color: #fff;
@@ -36,6 +37,12 @@ a {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+}
+.header .logo .lrp{
+  display: block;
+  float: left;
+  width: 50;
+  height: 50;
 }
 .header .menu {
   clear: both;
