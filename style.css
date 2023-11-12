@@ -42,8 +42,8 @@ a {
 .header .logo .lrp{
   display: block;
   float: left;
-  width: 50;
-  height: 50;
+  width: 50px;
+  height: 50px;
 }
 .header .menu {
   clear: both;
