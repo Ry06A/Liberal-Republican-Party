@@ -4,7 +4,7 @@ body {
   background-image:　radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
     　　　　　　　　　　radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
   font-family: 'Noto Sans JP', sans-serif;
-  color: #1d1d1f;
+  color: black;
 }
 a {
   color: #000;
@@ -64,14 +64,13 @@ a {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: #333;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
   transition: background .2s ease-out;
   width: 18px;
 }
-.header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
   content: '';
@@ -80,9 +79,6 @@ a {
   position: absolute;
   transition: all .2s ease-out;
   width: 100%;
-}
-.header .menu-icon .navicon:before {
-  top: 5px;
 }
 .header .menu-icon .navicon:after {
   top: -5px;
