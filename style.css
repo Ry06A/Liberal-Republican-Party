@@ -36,6 +36,8 @@ a {
   background-color: #f4f4f4;
 }
 .header .logo {
+  color: white;
+  font-weight: 900;
   display: block;
   float: left;
   font-size: 2em;
@@ -43,8 +45,6 @@ a {
   text-decoration: none;
 }
 .header .logo .lrp{
-  color: white;
-  font-weight: 900;
   display: block;
   float: left;
   width: 50px;
