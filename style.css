@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
   background-color: #50E3C2;
-  background-image:　radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
-    　　　　　　　　　　radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
+  background-image: radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+                    radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
   font-family: 'Noto Sans JP', sans-serif;
   color: black;
 }
