@@ -38,6 +38,7 @@ a {
 .header .lrp {
   display: block;
   float: left;
+  color: white;
   font-size: 2em;
   font-weight: 900;
   padding: 10px 20px;
@@ -63,7 +64,7 @@ a {
   user-select: none;
 }
 .header .menu-icon .navicon {
-  background: #333;
+  background: white;
   display: block;
   height: 2px;
   position: relative;
@@ -72,8 +73,7 @@ a {
 }
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
-  content: '';
+  background: white;
   display: block;
   height: 100%;
   position: absolute;
