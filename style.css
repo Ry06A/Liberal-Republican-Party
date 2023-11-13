@@ -74,6 +74,7 @@ a {
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: white;
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
