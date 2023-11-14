@@ -7,7 +7,7 @@ body {
   color: black;
 }
 a {
-  color: #000;
+  color: white;
 }
 .header {
   backdrop-filter: blur(16px) saturate(180%);
