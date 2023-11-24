@@ -31,10 +31,6 @@ a {
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
 }
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #f4f4f4;
-}
 .header .lrp {
   display: block;
   float: left;
@@ -52,7 +48,6 @@ a {
   height: 50px;
 }
 .header .menu {
-  color: white;
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
