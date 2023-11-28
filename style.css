@@ -5,6 +5,7 @@ body {
                     radial-gradient(at 82% 65%, hsl(198.00, 100%, 50%) 0, transparent 55%);
   font-family: 'Noto Sans JP', sans-serif;
   color: black;
+  text-align: center;
 }
 a {
   color: white;
