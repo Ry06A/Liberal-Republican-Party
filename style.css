@@ -104,6 +104,9 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
+.s1 {
+  margin-top: 50px;
+}
 .container {
   overflow: hidden;
   width: 100%;
