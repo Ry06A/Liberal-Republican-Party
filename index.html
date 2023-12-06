@@ -24,7 +24,17 @@
   <main>
     <div style="height: 100px"></div>
     <section id="s1">
-      <h1>It's Tuesday.</h1>
+      <h1>政治を決めるのは国民だ。</h1>
+      <script>
+        ScrollOut({
+          onShown: function(el) {
+            el.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
+          },
+          onHidden: function(el) {
+            el.style.opacity = 0;
+          }
+        });
+        </script>
     </section>
     <section id="s2">
       <h1></h1>
