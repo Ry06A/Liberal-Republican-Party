@@ -6,6 +6,7 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   color: black;
   text-align: center;
+  text-shadow: 1px 2px 3px #222;
 }
 a {
   color: white;
@@ -38,7 +39,6 @@ a {
   color: white;
   font-size: 2em;
   font-weight: 900;
-  text-shadow: 1px 2px 3px #222;
   padding: 10px 20px;
   text-decoration: none;
 }
