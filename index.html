@@ -37,14 +37,11 @@
       <p></p>
       <script>
         ScrollOut({
-          onShown: function(el) {
-            el.animate([{ opacity: 0 }, { opacity: 1 }], 1000);
-          },
-          onHidden: function(el) {
-            el.style.opacity = 0;
+          onShown(el) {
+            el.classList.add("animated");
           }
         });
-        </script>
+      </script>
     </section>
     <section id="s2">
       <h1></h1>
