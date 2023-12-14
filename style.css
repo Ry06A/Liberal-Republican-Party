@@ -131,4 +131,24 @@ a {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 65%;
+  background-color: #2f1d58;
+  height: 80vh;
+  overflow: auto;
+  flex-direction: row;
+}
+#s2 div {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
 }
