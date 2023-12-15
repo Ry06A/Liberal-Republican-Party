@@ -132,6 +132,7 @@ a {
   padding: 10px;
   border-radius: 10px;
   display: flex;
+  flex-grow: 1;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-start;
@@ -143,8 +144,6 @@ a {
   flex-direction: row;
 }
 #s2 div {
-  width: 100px;
-  height: 100px;
   margin: 5px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
