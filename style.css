@@ -7,6 +7,9 @@ body {
   color: black;
   text-align: center;
 }
+h1 {
+  font-size:5em;
+}
 a {
   color: white;
   font-weight: bold;
@@ -123,9 +126,6 @@ a {
 #s1 {
   text-shadow: 1px 2px 3px white;
 }
-#s1 h1 {
-  font-size:5em;
-}
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -136,14 +136,21 @@ a {
     "g4 g5 g6"
     ". . .";
 }
-.g1 { grid-area: g1; }
-
-.g2 { grid-area: g2; }
-
-.g3 { grid-area: g3; }
-
-.g4 { grid-area: g4; }
-
-.g5 { grid-area: g5; }
-
-.g6 { grid-area: g6; }
+.g1 { 
+  grid-area: g1; 
+}
+.g2 { 
+  grid-area: g2; 
+}
+.g3 { 
+  grid-area: g3; 
+}
+.g4 { 
+  grid-area: g4; 
+}
+.g5 { 
+  grid-area: g5; 
+}
+.g6 { 
+  grid-area: g6; 
+}
