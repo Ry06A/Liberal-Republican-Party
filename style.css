@@ -127,10 +127,6 @@ a {
   font-size:5em;
 }
 #s2 {
-  background-color: white;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
